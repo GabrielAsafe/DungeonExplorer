@@ -6,26 +6,36 @@ O jogo será feito em Godot4.2. Os personagens vão ser feitos em 3d e renderiza
 
 
 
-## More mechanics 
+## Core mechanics 
 
-.Skill tree
-  aos moldes de priston que faz-se uma quest há cada 20 níveis, sobe de tier e libera-se habilidades
-.LVL progression
-  para o bom e velho ginde
-.Multiplayer
-  Como em darksouls onde um amigo(caso tenha algum) entra no seu mundo e te ajuda com os chefes
-.Character classes
-  Classes como arqueiro, mago, cavaleiro e suas ramificações 
-.Player status
-  Status como vitalidade, fé, inteligencia, resistencia, destreza, força....
-.inventário
-  .items
-.NPC
-  .diálogos
-.Missões de história
-.Items equipáveis
-  que alteram a skin e status 
+##### .Skill tree
+    Aos moldes de priston que faz-se uma quest há cada 20 níveis, sobe de tier e libera-se habilidades
+##### .LVL progression
+    Para o bom e velho ginde
+##### .Multiplayer
+    Como em darksouls onde um amigo(caso tenha algum) entra no seu mundo e te ajuda com os chefes
+##### .Character classes
+    Classes como arqueiro, mago, cavaleiro e suas ramificações 
+##### .Player status
+    Status como vitalidade, fé, inteligencia, resistencia, destreza, força....
+##### .inventário
+    .items
+##### .NPC
+#####  .Diálogos
+##### .Missões de história
+##### .Items equipáveis
+    Items que alteram a skin e status 
 
+
+## Game mechanics 
+##### andar
+##### correr
+##### interagir com o ambiente 
+##### atacar
+##### castar magias
+##### esquivar
+##### defender
+##### rolar
 
 
 
