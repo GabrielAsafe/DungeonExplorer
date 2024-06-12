@@ -1,0 +1,11 @@
+Para os sprites não ficarem desfocados 
+	project setting-> general -> rendering -> textures: Nearest
+
+
+Animações estão sendo feitas no animationSprite2d
+	tem o script de croppagem para 256 
+
+	para convertê-las para animation player usamos o plugin Animated Sprite to Animation Player Convertor 4.0
+
+
+
