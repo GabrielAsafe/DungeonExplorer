@@ -1,3 +1,9 @@
+"""
+Essa imagem corta as imagens com várias sprites em várias de 256X256
+
+Para usar basta executar ela na raiz da pasta que quer croppar
+"""
+
 import os
 from PIL import Image
 
