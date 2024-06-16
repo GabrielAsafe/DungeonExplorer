@@ -49,4 +49,4 @@ git clone https://github.com/GabrielAsafe/DungeonExplorer.git
 
 ## Links importantes para o desenvolvimento
 
-[Game Design Document ]([https://choosealicense.com/licenses/mit/](https://docs.google.com/document/d/1wglVyC2I2BUhNG8c-t4QC_X6d0h4lXEbFeuMuW_OTgM/edit?usp=sharing))
+[GameDesignDocument](https://docs.google.com/document/d/1wglVyC2I2BUhNG8c-t4QC_X6d0h4lXEbFeuMuW_OTgM/edit?usp=sharing)
