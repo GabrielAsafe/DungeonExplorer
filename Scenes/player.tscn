@@ -1,5 +1,6 @@
-[gd_scene load_steps=698 format=3 uid="uid://ljrbffjo4vky"]
+[gd_scene load_steps=699 format=3 uid="uid://ljrbffjo4vky"]
 
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_bvonc"]
 [ext_resource type="Texture2D" uid="uid://c8fvywo3j6uti" path="res://Assets/Knight/Attack/cropped/Knight_Attack_dir0/Knight_Attack_dir0_crop_0_0.png" id="1_g0uwq"]
 [ext_resource type="Texture2D" uid="uid://bksq7vwi58an0" path="res://Assets/Knight/Idle/Knight_Idle_dir0.png" id="1_m704x"]
 [ext_resource type="Texture2D" uid="uid://bn341cd2d6owx" path="res://Assets/Knight/Attack/cropped/Knight_Attack_dir0/Knight_Attack_dir0_crop_0_256.png" id="2_gdm4p"]
@@ -523,8 +524,7 @@
 length = 0.001
 
 [sub_resource type="Animation" id="Animation_tkkha"]
-length = 3.0
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -551,8 +551,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_51w05"]
-length = 3.2
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -579,8 +578,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_n25gj"]
-length = 3.2
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -607,8 +605,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_vxdkf"]
-length = 3.2
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -635,8 +632,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_04bwn"]
-length = 3.2
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -663,8 +659,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_5v5dj"]
-length = 3.2
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -691,8 +686,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_3gv5e"]
-length = 3.2
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -719,8 +713,7 @@ tracks/1/keys = {
 }
 
 [sub_resource type="Animation" id="Animation_1aa3j"]
-length = 3.0
-loop_mode = 1
+length = 0.8
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -4374,6 +4367,7 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_bvonc")
 
 [node name="HitBox" type="CollisionShape2D" parent="."]
 
@@ -4384,9 +4378,10 @@ libraries = {
 "": SubResource("AnimationLibrary_jmp1k")
 }
 
-[node name="Camera2D" type="Camera2D" parent="."]
-
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_rjd4x")
-animation = &"atk4"
-frame = 15
+animation = &"atk7"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
