@@ -11,7 +11,7 @@ O jogo será feito em Godot4.2. Os personagens vão ser feitos em 3d e renderiza
 ##### .Skill tree
     Aos moldes de priston que faz-se uma quest há cada 20 níveis, sobe de tier e libera-se habilidades
 ##### .LVL progression
-    Para o bom e velho ginde
+    Para o bom e velho grinde
 ##### .Multiplayer
     Como em darksouls onde um amigo(caso tenha algum) entra no seu mundo e te ajuda com os chefes
 ##### .Character classes
